@@ -5,14 +5,27 @@
 
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
-
-# What is the return value of your method?
-# How many arguments did you pass your method?
+def greeting
+    "hi"
+end
+greeting1 = greeting
+greeting2 =  greeting
+puts greeting1
+puts greeting2
+# What is the return value of your method? "hi" 
+# How many arguments did you pass your method? no arguments present
 
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
+def custom_greeting(name)
+    "whats up, #{name}?"
+end
+    greeting3 = custom_greeting("kevin")
+    greeting4 = custom_greeting("jake")
+    puts greeting3
+    puts greeting4
 
-# What is the return value of your method?
+# What  is the return value of your method?
 # How many arguments did you pass your method?
 # What data type was your argument(s)?
 
