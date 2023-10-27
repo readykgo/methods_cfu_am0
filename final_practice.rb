@@ -15,7 +15,7 @@ puts greeting2
 # What is the return value of your method? "hi" 
 # How many arguments did you pass your method? no arguments present
 
-
+ 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 def custom_greeting(name)
     "whats up, #{name}?"
