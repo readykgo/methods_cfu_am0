@@ -11,7 +11,7 @@ puts "Hello World".downcase
 
 
 "Hello World".include?("Hello")
-puts "Hello World".include?("Hello")
+ puts "Hello World".include?("Hello")
 # the include method is called on the string object "Hello World"
 #include checks that Hello exists within the string object "Hello World" which is true
 
