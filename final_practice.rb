@@ -31,7 +31,17 @@ end
 
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
+puts 'Hello, World!'
+def greet_person(first, middle,last)
+    "Hello, #{(first, middle, last)}"
+end
+greet_person("Ada", "Lovelace", "Katherine")
 
+# I'm getting a syntax error on this one and am not sure how to figure it out.
+def multiply(num1, num2)
+    p num1 * num2
+end
+    multiply(4, 4)
 # What is the return value of your method?
 # How many arguments did you pass your method?
 # What data type was your argument(s)?
